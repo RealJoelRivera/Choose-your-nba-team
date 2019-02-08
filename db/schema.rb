@@ -21,9 +21,9 @@ ActiveRecord::Schema.define(version: 2019_02_07_221747) do
     t.integer "games_played"
     t.integer "game_minutes"
     t.integer "points"
-    t.integer "FG_percentage"
-    t.integer "three_point_percentage"
-    t.integer "FT_percentage"
+    t.float "FG_percentage"
+    t.float "three_point_percentage"
+    t.float "FT_percentage"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
