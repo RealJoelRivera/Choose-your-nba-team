@@ -1,4 +1,4 @@
-PLAYER,position,games played,game minutes,points,FG Percentage,three point percentage,FT Percentage
+name,position,games played,game minutes,points,FG Percentage,three point percentage,FT Percentage
 James Harden,point guard,51,37.4,36.5,0.444,0.375,0.867
 Anthony Davis,power forward,41,37,29.3,0.508,0.325,0.812
 Stephen Curry,point guard,42,34.2,28.9,0.495,0.452,0.92
