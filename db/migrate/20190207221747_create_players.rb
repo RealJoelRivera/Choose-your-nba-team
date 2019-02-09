@@ -2,7 +2,7 @@ class CreatePlayers < ActiveRecord::Migration[5.2]
   def change
     create_table :players do |t|
       t.string :name
-      t.string :position
+      t.integer :position_id
       t.integer :games_played
       t.integer :game_minutes
       t.integer :points
