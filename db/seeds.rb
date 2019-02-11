@@ -7,3 +7,5 @@
 #   Character.create(name: 'Luke', movie: movies.first)
 Rake::Task['import:positions'].invoke
 Rake::Task['import:players'].invoke
+
+joel = User.create({name: "Joel", username: "jriv95", password: "Test"})
