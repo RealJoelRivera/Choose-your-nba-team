@@ -8,7 +8,7 @@ namespace :import do
 
         CSV.foreach(filename,  headers: true) do |row|
   
-            Player.create(
+            player = Player.create(
                 name: row["name"], 
                 position_id: row["position"].to_i,
                 games_played: row["games played"].to_i, 
@@ -16,7 +16,8 @@ namespace :import do
                 points: row["points"].to_i, 
                 FG_percentage: row["FG Percentage"].to_f, 
                 three_point_percentage: row["three point percentage"].to_f, 
-                FT_percentage:row["FT Percentage"].to_f)
+                FT_percentage: row["FT Percentage"].to_f,
+                img: row["img"])
         end
 
     end

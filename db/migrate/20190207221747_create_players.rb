@@ -9,6 +9,7 @@ class CreatePlayers < ActiveRecord::Migration[5.2]
       t.float :FG_percentage
       t.float :three_point_percentage
       t.float :FT_percentage
+      t.text :img
       t.timestamps
     end
   end

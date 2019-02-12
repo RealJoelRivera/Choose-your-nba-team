@@ -24,6 +24,7 @@ ActiveRecord::Schema.define(version: 2019_02_10_210035) do
     t.float "FG_percentage"
     t.float "three_point_percentage"
     t.float "FT_percentage"
+    t.text "img"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
